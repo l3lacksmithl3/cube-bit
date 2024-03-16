@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-new-test',
-  templateUrl: './new-test.component.html',
-  styleUrls: ['./new-test.component.scss']
+  selector: 'app-new-page',
+  templateUrl: './new-page.component.html',
+  styleUrls: ['./new-page.component.scss']
 })
-export class NewTestComponent implements OnInit {
+export class NewPageComponent implements OnInit {
 
   constructor(
     private router: Router
@@ -14,7 +14,6 @@ export class NewTestComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 
   toA(){
     this.router.navigate(["./new-test"]);
